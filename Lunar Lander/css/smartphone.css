@@ -1,0 +1,88 @@
+html {
+  padding: 0;
+}
+
+body {
+    background-image: url("../img/fondo.png");
+    background-repeat: repeat;
+}
+
+#suelo {
+  bottom: 0;
+  left: 0;
+  position: fixed;
+  width: 100%;
+  height: 15%;
+}
+
+#nave {
+  left: 42%;
+  position: absolute;
+  top: 0px;
+  width: 75px;
+  height: 75px;
+}
+
+#altura {
+  position: absolute;
+  left: 2%;
+  top: 1%;
+}
+
+#altura img{
+  height: 25px;
+  float: left;
+  display: inline-block;
+}
+
+#altura p{
+  color: white;
+  float: left;
+  margin-left: 10px;
+}
+
+#velocidad {
+  position: absolute;
+  left: 2%;
+  top: 10%;
+}
+
+#velocidad img{
+  height: 25px;
+  float: left;
+  display: inline-block;
+}
+
+#velocidad p{
+  color: white;
+  float: left;
+  margin-left: 10px;
+}
+
+#gasolina {
+  position: absolute;
+  left: 2.3%;
+  top: 20%;
+ }
+
+ #gasolina img{
+   height: 25px;
+   float: left;
+   display: inline-block;
+ }
+
+ #gasolina p {
+   color: white;
+   float: left;
+   margin-left: 10px;
+  }
+
+#pausa {
+position: absolute;
+right: 2%;
+top: 1%;
+}
+#pausa img{
+  height: 50px;
+  float: left;
+}
