@@ -16,21 +16,20 @@ body {
 }
 
 #nave {
-  left: 42%;
+  left: 40%;
   position: absolute;
-  top: 0px;
-  width: 75px;
-  height: 75px;
+  top: 5%;
+  height: 20%;
 }
 
 #altura {
   position: absolute;
-  left: 2%;
+  left: 2.5%;
   top: 1%;
 }
 
 #altura img{
-  height: 25px;
+  width: 40%;
   float: left;
   display: inline-block;
 }
@@ -38,17 +37,18 @@ body {
 #altura p{
   color: white;
   float: left;
-  margin-left: 10px;
+  margin-left: 5%;
+  font-size: 200%;
 }
 
 #velocidad {
   position: absolute;
-  left: 2%;
+  left: 1.9%;
   top: 10%;
 }
 
 #velocidad img{
-  height: 25px;
+  width: 40%;
   float: left;
   display: inline-block;
 }
@@ -56,17 +56,18 @@ body {
 #velocidad p{
   color: white;
   float: left;
-  margin-left: 10px;
+  margin-left: 5%;
+  font-size: 200%;
 }
 
 #gasolina {
   position: absolute;
-  left: 2.3%;
+  left: 2.5%;
   top: 20%;
  }
 
  #gasolina img{
-   height: 25px;
+   width: 40%;
    float: left;
    display: inline-block;
  }
@@ -74,7 +75,8 @@ body {
  #gasolina p {
    color: white;
    float: left;
-   margin-left: 10px;
+   margin-left: 5%;
+   font-size: 200%;
   }
 
 #pausa {
@@ -82,7 +84,8 @@ position: absolute;
 right: 2%;
 top: 1%;
 }
+
 #pausa img{
-  height: 50px;
+  height: 40%;
   float: left;
 }
