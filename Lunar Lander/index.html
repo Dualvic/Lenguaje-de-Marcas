@@ -24,8 +24,11 @@
 	<div id="gasolinaborder">
 		<p class="gasolinaborder"></p>
 	</div>
-	<div id="pausa">
+	<div id="pausa" href="#" onclick="mostrarmenu();">
 		<img src="./img/pause.png">
+	</div>
+	<div id="reanudar" href="#" onclick="ocultarmenu();">
+		<img src="./img/play.png">
 	</div>
 	<div id="reiniciar">
 		<img src="./img/reiniciar.png">
@@ -33,7 +36,29 @@
 	<div id="opciones">
 		<img src="./img/opciones.png">
 	</div>
-	<div id="menu"></div>
+	<div id="menu">
+		<h1>Instrucciones</h1>
+	<p> Bienvenido a las instrucciones de Lunar Lander.
+			Para propulsar el cohete presiona la barra espaciadora.
+			Procura controlar la velocidad ya que si intentas aterrizar
+			a mucha, explotará!
+			<br></br>
+		</p>
+		<h1>Consejos</h1>
+		<p> Intenta mantener el fuel antes de aterrizar o iras muy deprisa.<br></br>
+				Procura vigilar la velocidad!<br></br>
+				Ten en cuenta siempre a cuanto estas del suelo.
+		</p>
+
+	</div>
+	<script> function mostrarmenu() {document.getElementById("menu").style.display="block";
+                                            document.getElementById("pausa").style.display="none";
+                                            document.getElementById("reanudar").style.display="inline";}
+</script>
+<script> function ocultarmenu() {document.getElementById("menu").style.display="none";
+                                            document.getElementById("reanudar").style.display="none";
+                                            document.getElementById("pausa").style.display="inline";}
+</script>
 </body>
 
 </html>
