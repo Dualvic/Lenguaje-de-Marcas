@@ -24,7 +24,7 @@ Decidí desde un principio hacer dos CSS para cada dispositivo y mediante un que
 
 He estado en contacto ya sea en clase o fuera de ella para intentar acercar el proyecto lo mas cerca posible de lo que tenían en mente, para que quedase algo como esto!
 
-![Preview](http://imgur.com/bf1VONK)
+![Preview](http://i.imgur.com/bf1VONK.png)
 
 #### <i class="icon-pencil"></i> Retoques realizados
 
