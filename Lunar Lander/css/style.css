@@ -148,3 +148,17 @@ body {
   margin-left: 10px;
   margin-top: 25%;
 }
+
+#menu {
+  position: absolute;
+  display:none;
+  z-index: 15;
+  width: 50%;
+  height: 40%;
+  border-radius: 30px;
+  left: 20%;
+  top: 15%;
+  padding: 5%;
+  background: white;
+  opacity: 0.5;
+}
