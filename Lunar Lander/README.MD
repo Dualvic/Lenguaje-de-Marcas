@@ -12,7 +12,7 @@ Lunar Lander es un juego dedicado al aterrizaje de naves en terreno estable.
 >- Marc Hernandez
 >- Luis Cifre
 >- Guillem Cirer
->- alberto garcia
+>- Alberto garcia
 
 #### <i class="icon-file"></i> Preview
 
