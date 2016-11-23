@@ -1,5 +1,5 @@
 html {
-  padding: 0;
+    padding: 0;
 }
 
 body {
@@ -8,141 +8,141 @@ body {
 }
 
 #suelo {
-  bottom: 0;
-  left: 0;
-  position: fixed;
-  width: 100%;
-  height: 15%;
+    bottom: 0;
+    left: 0;
+    position: fixed;
+    width: 100%;
+    height: 15%;
 }
 
 #nave {
-  left: 40%;
-  position: absolute;
-  top: 5%;
-  height: 20%;
+    left: 40%;
+    position: absolute;
+    top: 5%;
+    height: 20%;
 }
 
 #altura {
-  position: absolute;
-  left: 2.5%;
-  top: 1%;
+    position: absolute;
+    left: 2.5%;
+    top: 1%;
 }
 
-#altura img{
-  width: 80%;
-  float: left;
-  display: inline-block;
+#altura img {
+    width: 80%;
+    float: left;
+    display: inline-block;
 }
 
-#altura p{
-  color: white;
-  float: left;
-  margin-left: 5%;
-  font-size: 200%;
+#altura p {
+    color: white;
+    float: left;
+    margin-left: 5%;
+    font-size: 200%;
 }
 
 #velocidad {
-  position: absolute;
-  left: 2%;
-  top: 10%;
+    position: absolute;
+    left: 2%;
+    top: 10%;
 }
 
-#velocidad img{
-  width: 40%;
-  float: left;
-  display: inline-block;
+#velocidad img {
+    width: 40%;
+    float: left;
+    display: inline-block;
 }
 
-#velocidad p{
-  color: white;
-  float: left;
-  margin-left: 5%;
-  font-size: 200%;
+#velocidad p {
+    color: white;
+    float: left;
+    margin-left: 5%;
+    font-size: 200%;
 }
 
 #gasolina {
-  position: absolute;
-  left: 2.5%;
-  top: 20%;
- }
-
- #gasolina img{
-   width: 40%;
-   float: left;
-   display: inline-block;
- }
-
- #gasolina p {
-   color: white;
-   float: left;
-   margin-left: 5%;
-   font-size: 200%;
-  }
-
-#pausa {
-position: absolute;
-right: 2%;
-top: 1%;
+    position: absolute;
+    left: 2.5%;
+    top: 20%;
 }
 
-#pausa img{
-  width: 60%;
-  float: left;
+#gasolina img {
+    width: 40%;
+    float: left;
+    display: inline-block;
+}
+
+#gasolina p {
+    color: white;
+    float: left;
+    margin-left: 5%;
+    font-size: 200%;
+}
+
+#pausa {
+    position: absolute;
+    right: 2%;
+    top: 1%;
+}
+
+#pausa img {
+    width: 60%;
+    float: left;
 }
 
 #reanudar {
-  position: absolute;
-  right: 2%;
-  top: 3%;
+    position: absolute;
+    right: 2%;
+    top: 3%;
 }
 
 #reanudar img {
-  width: 60%;
-  float: right;
+    width: 60%;
+    float: right;
 }
 
 #reiniciar {
-  position: absolute;
-  right: 2%;
-  top: 12%;
+    position: absolute;
+    right: 2%;
+    top: 12%;
 }
 
-#reiniciar img{
-  width: 60%;
-  float: right;
+#reiniciar img {
+    width: 60%;
+    float: right;
 }
 
 #opciones {
-  position: absolute;
-  right: 2%;
-  top: 20%;
+    position: absolute;
+    right: 2%;
+    top: 20%;
 }
 
 #opciones img {
-  width: 60%;
-  float: right;
+    width: 60%;
+    float: right;
 }
 
 #config p {
-  color: white;
-  border-style: dashed;
-  float: center;
-  margin-left: 10px;
-  margin-top: 25%;
+    color: white;
+    border-style: dashed;
+    float: center;
+    margin-left: 10px;
+    margin-top: 25%;
 }
 
 #menu {
-  position: absolute;
-  display:none;
-  z-index: 15;
-  width: 50%;
-  height: 40%;
-  border-radius: 30px;
-  left: 20%;
-  top: 15%;
-  padding: 5%;
-  background: white;
-  opacity: 0.5;
+    position: absolute;
+    display: none;
+    z-index: 15;
+    width: 50%;
+    height: 40%;
+    border-radius: 30px;
+    left: 20%;
+    top: 15%;
+    padding: 5%;
+    background: white;
+    opacity: 0.5;
 }
 
 #menu h1 {
@@ -154,5 +154,4 @@ top: 1%;
     font-family: "Times New Roman", Times, serif;
     font-size: 20px;
     font-color: black;
-
 }
