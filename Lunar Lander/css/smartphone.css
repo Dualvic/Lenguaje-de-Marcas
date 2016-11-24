@@ -147,11 +147,12 @@ body {
 
 #menu h1 {
     color: green;
-    font-size: 30px;
+    font-size: 25px;
 }
 
 #menu p {
+    top: 0px;
     font-family: "Times New Roman", Times, serif;
-    font-size: 20px;
-    font-color: black;
+    font-size: 15px;
+    color: black;
 }
