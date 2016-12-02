@@ -29,7 +29,7 @@ body {
 }
 
 #altura img {
-    width: 80%;
+    width: 50%;
     float: left;
     display: inline-block;
 }
@@ -48,7 +48,7 @@ body {
 }
 
 #velocidad img {
-    width: 40%;
+    width: 50%;
     float: left;
     display: inline-block;
 }
@@ -62,23 +62,39 @@ body {
 
 #gasolina {
     position: absolute;
-    left: 2.5%;
-    top: 20%;
+    left: 2%;
+    top: 23%;
 }
 
 #gasolina img {
-    width: 40%;
+    width: 90%;
     float: left;
     display: inline-block;
+}
+
+#gasolinaborder {
+    position: absolute;
+    left: 2%;
+    top: 35%;
+}
+
+p.gasolinaborder {
+    border-style: solid;
+    border-color: white;
+    border-radius: 10px;
+    border-left: thick solid #ff0000;
+    height: 500px;
+    width: 70px;
+    top: 35%;
+    left: 50px;
+    color: white;
 }
 
 #gasolina p {
     color: white;
     float: left;
-    margin-left: 5%;
-    font-size: 200%;
+    left: 20%;
 }
-
 #pausa {
     position: absolute;
     right: 2%;
@@ -86,18 +102,18 @@ body {
 }
 
 #pausa img {
-    width: 60%;
-    float: left;
+    width: 80%;
+    float: right;;
 }
 
 #reanudar {
     position: absolute;
     right: 2%;
-    top: 3%;
+    top: 1%;
 }
 
 #reanudar img {
-    width: 60%;
+    width: 80%;
     float: right;
 }
 
@@ -108,7 +124,7 @@ body {
 }
 
 #reiniciar img {
-    width: 60%;
+    width: 80%;
     float: right;
 }
 
@@ -119,7 +135,7 @@ body {
 }
 
 #opciones img {
-    width: 60%;
+    width: 80%;
     float: right;
 }
 
@@ -147,12 +163,11 @@ body {
 
 #menu h1 {
     color: green;
-    font-size: 25px;
+    font-size: 50px;
 }
 
 #menu p {
-    top: 0px;
     font-family: "Times New Roman", Times, serif;
-    font-size: 15px;
-    color: black;
+    font-size: 40px;
+    font-color: black;
 }
