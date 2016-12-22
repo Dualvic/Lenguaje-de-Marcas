@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Lunar Lander</title>
+    <meta charset="utf-8">
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel='stylesheet' media='screen and (min-width: 961px)' href='css/style.css'>
+    <link rel='stylesheet' media='screen and (max-width: 960px)' href='css/smartphone.css'>
+    <link rel="icon" type="img/png" href="img/nave.png" />
+    <script src="js/js.js"></script>
+</head>
+
+<body>
+    <img id="suelo" src="./img/superficie-lunar.png">
+    <div id="nave">
+        <img src="img/nave.png" id="imgNave" alt="img nave">
+    </div>
+    <div id="showm">show menu</div>
+
+    <div id="cpanel">
+        <div id="velocidadIMG">
+            <img src="img/velocidad.png">
+        </div>
+        <div id="velocidad"><br><b><span id="velocidad">100</span></b>m/s</div>
+        <div id="alturaIMG">
+            <img src="img/altura.png">
+        </div>
+        <div id="altura"><br><b><span id="altura">100</span></b>m</div>
+        <div id="fuelIMG">
+            <img src="img/gasolina.png">
+        </div>
+        <div id="fuel"><br><b><span id="fuel">100%</span></b></div>
+
+
+    </div>
+    </div>
+    <div class="b">.</div>
+    <div class="c">
+        <div id="menu">
+            <div onclick="reanudar();" id="reanudar">
+            </div>
+            <div onclick="pausar()" id="pausa"></div>
+            <div onclick="reiniciarJuego();" id="reinicia">
+            </div>
+            <div onclick="mostrarInstrucciones();" id="instrucciones">
+            </div>
+        </div>
+        </a>
+    </div>
+    </div>
+    <div class="d">.</div>
+    <div id="menuInstrucciones">
+        <h1>Instrucciones</h1>
+        <p> Bienvenido a las instrucciones de Lunar Lander. Para propulsar el cohete presiona la barra espaciadora. Procura controlar la velocidad ya que si intentas aterrizar a mucha, explotará!
+            <br></br>
+        </p>
+        <h1>Consejos</h1>
+        <p> Intenta mantener el fuel antes de aterrizar o iras muy deprisa.<br></br>
+            Procura vigilar la velocidad!<br></br>
+            Ten en cuenta siempre a cuanto estas del suelo.<br></br>
+        </p>
+
+    </div>
+    </div>
+</body>
+
+</html>
