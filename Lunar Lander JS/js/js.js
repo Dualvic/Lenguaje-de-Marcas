@@ -17,7 +17,9 @@ window.onload = function() {
 }
 
 function start() {
-    timer = setInterval(function() { moverNave(); }, dt * 1000);
+    timer = setInterval(function() {
+        moverNave();
+    }, dt * 1000);
 }
 
 function stop() {
@@ -35,13 +37,17 @@ function moverNave() {
 
     if (y < 70) {
         document.getElementById("nave").style.top = y + "%";
+
     } else {
         activo = false;
         stop();
         motorOff();
         document.getElementById("imgNave").src = "img/nave.png";
+
+
         if (v > 5) {
             document.getElementById("imgNave").src = "img/explosion.gif";
+            document.getElementById("gameover").style.display = "block";
         }
     }
 }
@@ -50,7 +56,9 @@ function motorOn() {
     if (activo == true) {
         a = -g;
         if (timerFuel == null) {
-            timerFuel = setInterval(function() { actualizarAltura(); }, 100);
+            timerFuel = setInterval(function() {
+                actualizarAltura();
+            }, 100);
             document.getElementById("imgNave").src = "img/nave-fuego.png";
         }
 
@@ -81,7 +89,7 @@ function motorOff() {
 function actualizarAltura() {
     if (activo == true) {
         fuel -= 1;
-        document.getElementById("fuel").innerHTML = fuel+"%";
+        document.getElementById("fuel").innerHTML = fuel + "%";
     }
 }
 

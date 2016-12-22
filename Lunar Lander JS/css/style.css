@@ -1,30 +1,34 @@
 html {
-height: 100%;
-padding: 0px;
-margin: 0px;
+    height: 100%;
+    padding: 0px;
+    margin: 0px;
 }
 
 body {
-background-image: url("../img/fondo.png");
-background-repeat: repeat;
-margin: 0;
+    background-image: url("../img/fondo.png");
+    background-repeat: repeat;
+    margin: 0;
 }
 
 .d {
-bottom: -1%;
-position: fixed;
-width: 100%;
+    bottom: -1%;
+    position: fixed;
+    width: 100%;
 }
 
 .d img {
-width: 100%;
+    width: 100%;
+}
+
+#about {
+    color: white;
 }
 
 #imgNave {
-               height: 100%;
-               display: block;
-               margin: auto;
-           }
+    height: 100%;
+    display: block;
+    margin: auto;
+}
 
 #suelo {
     bottom: 0;
@@ -35,219 +39,240 @@ width: 100%;
 }
 
 #nave {
-text-align: center;
-position: fixed;
-top: 10%;
-width: 100%;
-height: 20%
+    text-align: center;
+    position: fixed;
+    top: 10%;
+    width: 100%;
+    height: 20%
 }
 
 #nave img {
-height: 90%;
+    height: 90%;
 }
 
 #cpanel {
-color: white;
+    color: white;
 }
 
-#hidem,
-#showm {
-display: none
+#hidem, #showm {
+    display: none
 }
 
 #menu {
-position: fixed;
-right: 0;
-top: 0;
-width: 50%;
-height: 20%;
-color: white;
+    position: fixed;
+    right: 0;
+    top: 0;
+    width: 50%;
+    height: 20%;
+    color: white;
 }
 
 #reanudar:active {
-border-style: inset;
+    border-style: inset;
 }
 
 #reanudar:hover {
-background-color: #0FA58A;
-font-size: 100%;
+    background-color: #0FA58A;
+    font-size: 100%;
 }
 
 #pausa:active {
-border-style: inset;
+    border-style: inset;
 }
 
 #pausa:hover {
-background-color: #0FA58A;
-font-size: 100%;
+    background-color: #0FA58A;
+    font-size: 100%;
 }
 
 #reinicia:active {
-border-style: inset;
+    border-style: inset;
 }
 
 #reinicia:hover {
-background-color: ##0FA58A;
-font-size: 100%;
+    background-color: ##0FA58A;
+    font-size: 100%;
 }
 
 #instrucciones:active {
-border-style: inset;
+    border-style: inset;
 }
 
 #instrucciones:hover {
-background-color: #7ba429;
-font-size: 100%;
+    background-color: #7ba429;
+    font-size: 100%;
 }
 
 #close:active {
-border-style: inset;
+    border-style: inset;
 }
 
 #close:hover {
-background-color: #7ba429;
+    background-color: #7ba429;
 }
 
 #reanudar {
-border-style: outset;
-background-color: #900C3F;
-display: none;
-float: right;
-border-color: yellow;
-margin: 10px;
-margin-top: 5%;
-color: black;
-text-align: center;
-width: 70px;
-height: 70px;
-background-image: url("../img/play.png");
-background-repeat: no-repeat;
-background-size: 100%;
-background-position: 50% 50%;
-pointer-events: auto;
+    border-style: outset;
+    background-color: #900C3F;
+    display: none;
+    float: right;
+    border-color: yellow;
+    margin: 10px;
+    margin-top: 5%;
+    color: black;
+    text-align: center;
+    width: 70px;
+    height: 70px;
+    background-image: url("../img/play.png");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: 50% 50%;
+    pointer-events: auto;
 }
 
 #reanudar p {
-margin-top: 0px;
+    margin-top: 0px;
 }
 
 #pausa {
-border-style: outset;
-background-color: #900C3F;
-display: inline-block;
-float: right;
-border-color: yellow;
-margin: 10px;
-margin-top: 5%;
-color: black;
-text-align: center;
-font-size: 0%;
-width: 70px;
-height: 70px;
-background-image: url("../img/pause.png");
-background-repeat: no-repeat;
-background-size: 100%;
-background-position: 50% 50%;
+    border-style: outset;
+    background-color: #900C3F;
+    display: inline-block;
+    float: right;
+    border-color: yellow;
+    margin: 10px;
+    margin-top: 5%;
+    color: black;
+    text-align: center;
+    font-size: 0%;
+    width: 70px;
+    height: 70px;
+    background-image: url("../img/pause.png");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: 50% 50%;
 }
 
 #reinicia {
-  border-style: outset;
-  background-color: #900C3F;
-  display: inline-block;
-  float: right;
-  border-color: yellow;
-  margin: 10px;
-  margin-top: 5%;
-  color: black;
-  text-align: center;
-  font-size: 0%;
-  width: 70px;
-  height: 70px;
-  background-image: url("../img/reiniciar.png");
-  background-repeat: no-repeat;
-  background-size: 100%;
-  background-position: 50% 50%;
-  }
+    border-style: outset;
+    background-color: #900C3F;
+    display: inline-block;
+    float: right;
+    border-color: yellow;
+    margin: 10px;
+    margin-top: 5%;
+    color: black;
+    text-align: center;
+    font-size: 0%;
+    width: 70px;
+    height: 70px;
+    background-image: url("../img/reiniciar.png");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: 50% 50%;
+}
 
 #reinicia p {
-margin-top: 0px;
+    margin-top: 0px;
 }
 
+#win {
+    position: absolute;
+    display: none;
+    z-index: 15;
+    width: 50%;
+    height: 40%;
+    border-radius: 30px;
+    left: 20%;
+    top: 15%;
+    padding: 5%;
+    background: white;
+    opacity: 0.5;
+}
+
+#gameover {
+    position: absolute;
+    display: none;
+    z-index: 15;
+    width: 50%;
+    height: 40%;
+    border-radius: 30px;
+    left: 20%;
+    top: 15%;
+    padding: 5%;
+    background: white;
+    opacity: 0.5;
+}
 
 #menuInstrucciones {
-  position: absolute;
-  display: none;
-  z-index: 15;
-  width: 50%;
-  height: 40%;
-  border-radius: 30px;
-  left: 20%;
-  top: 15%;
-  padding: 5%;
-  background: white;
-  opacity: 0.5;
-}
+    position: absolute;
+    display: none;
+    z-index: 15;
+    width: 50%;
+    height: 40%;
+    border-radius: 30px;
+    left: 20%;
+    top: 15%;
+    padding: 5%;
+    background: white;
+    opacity: 0.5;
 }
 
 #menuInstrucciones b {
-background-color: #00FA9A;
-border-style: outset;
-
+    background-color: #00FA9A;
+    border-style: outset;
 }
 
 #velocidad {
-  top: 9%;
-  left: 5%;
-  position: fixed;
-  color: black;
-
+    top: 9%;
+    left: 5%;
+    position: fixed;
+    color: black;
 }
 
 #velocidadIMG {
-  top: 3%;
-  left: 3%;
-  position: fixed;
-  height: 10%;
+    top: 3%;
+    left: 3%;
+    position: fixed;
+    height: 10%;
 }
 
 #velocidadIMG img {
-  height: 90%;
+    height: 90%;
 }
 
 #altura {
-  top: 20%;
-  left: 5.5%;
-  position: fixed;
-  color: black;
-
+    top: 20%;
+    left: 5.5%;
+    position: fixed;
+    color: black;
 }
 
 #alturaIMG {
-  top: 15%;
-  left: 3%;
-  position: fixed;
-  height: 10%;
+    top: 15%;
+    left: 3%;
+    position: fixed;
+    height: 10%;
 }
 
 #alturaIMG img {
-  height: 90%;
+    height: 90%;
 }
 
 #fuel {
-  top: 40%;
-  left: 4%;
-  position: fixed;
-  color: white;
-
+    top: 40%;
+    left: 4%;
+    position: fixed;
+    color: white;
 }
 
 #fuelIMG {
-  top: 30%;
-  left: 3%;
-  position: fixed;
-  height: 10%;
+    top: 30%;
+    left: 3%;
+    position: fixed;
+    height: 10%;
 }
 
 #fuelIMG img {
-  height: 90%;
+    height: 90%;
 }
