@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="es">
+	<head>
+		<title>Proyecto Formularios</title>
+		<meta http-equiv=Content-Type content="text/html; charset=UTF-8">
+		<meta name="description" content="Proyecto de formularios con uso de XML">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel='stylesheet' media='screen and (min-width: 961px)' href='css/style.css'>
+		<script src="js/preguntas.js"></script>
+	</head>
+
+<body>
+
+	<div id="crono">
+		<span id="minutos">00</span>:<span id="segundos">00</span>
+	</div>
+
+	<div id="homeDiv">
+		<br/>
+		<img src="img/logo.png" alt="Harvard Official Logo">
+		<h3><b><i>Harvard University - Veritas<br/><br/>
+		Cambridge, Massachusetts 02138, EE. UU.<br/></i></b></h3>
+		<div id="menu">
+			<ul>
+				<a href="index.html"><b>Comenzar de nuevo</b></a>
+				<button onclick="instrucciones()"><b>Instrucciones del Examen</b></a>
+			</ul>
+		</div>
+	</div>
+
+	<form id='exam'>
+
+	<div>
+		<h3 id="input1">pregunta1</h3>
+		<input id="inputText1" type="text">
+	</div>
+
+	<div>
+		<h3 id="checkbox1">Titulo check 1</h3>
+		<div id="checkboxDiv1"></div>
+	</div>
+
+	<div>
+		<h3 id='pregunta3'>Pregunta 3</h3>
+		<select id='sel'>
+		 <option selected value="-1">Selecciona una...</option>
+		</select>
+	</div>
+
+	<div>
+		<h3 id="pregunta4">PREGUNTA 1</h5>
+		<input id='string' type='string'>
+	</div>
+	<div>
+		<h3 id="pregunta5">PREGUNTA 1</h5>
+		<input id='string' type='string'>
+	</div>
+	<div>
+		<h3 id="pregunta6">PREGUNTA 6</h5>
+			<select id='sel'>
+			 <option selected value="-1">Selecciona una...</option>
+			</select>
+	</div>
+	<div>
+		<h3 id="pregunta7">PREGUNTA 1</h5>
+		<input id='string' type='string'>
+	</div>
+	<div>
+		<h3 id="pregunta8">PREGUNTA 1</h5>
+		<input id='string' type='string'>
+	</div>
+	<div>
+		<h3 id="pregunta9">PREGUNTA 1</h5>
+		<input id='string' type='string'>
+	</div>
+	<div>
+		<h3 id="pregunta10">PREGUNTA 1</h5>
+		<input id='string' type='string'>
+	</div>
+	<div>
+		<h3 id="tituloInput">PREGUNTA 1</h5>
+		<input id='string' type='string'>
+	</div>
+	<div>
+		<h3 id="tituloInput">PREGUNTA 1</h5>
+		<input id='string' type='string'>
+	</div>
+
+  <br><br>
+
+  <h3 id='tituloCheckbox'></h3>
+  <div id='checkboxDiv'></div>
+  <br><br>
+
+  <input type='submit' value='Corregir'>
+ </form>
+
+<div id="comprobacion">
+	<h5>RESULTADOS: </h5>
+</div>
+
+<footer>
+	<address>
+		<p>Creado por: Victor Garcia Regadera - <small>Febrero 2017</small></p>
+		<p>1º Dual IES Francesc de Borja Moll</p>
+		<a href="mailto:example@gmail.com">Contacto</a>
+	</address>
+</footer>
+
+</body>
