@@ -27,45 +27,42 @@ function gestionarXml(dadesXml){
 	 var tituloInput2=xmlDoc.getElementsByTagName("title")[1].innerHTML;
 	 ponerDatosInputHtml(tituloInput2, 2);
 
+ // Enunciado preguntas checkbox
+ var tituloCheckbox1 = xmlDoc.getElementsByTagName("title")[4].innerHTML;
+ var opcionesCheckbox = [];
+ var nopt = xmlDoc.getElementById("jaap005").getElementsByTagName('option').length;
+ for (i = 0; i < nopt; i++) {
+    opcionesCheckbox[i]=xmlDoc.getElementById("jaap005").getElementsByTagName('option')[i].innerHTML;
+ }
+ ponerDatosCheckboxHtml(tituloCheckbox1, 1, opcionesCheckbox);
 
-
+ var tituloCheckbox2 = xmlDoc.getElementsByTagName("title")[5].innerHTML;
+ var opcionesCheckbox = [];
+ var nopt = xmlDoc.getElementById("jaap006").getElementsByTagName('option').length;
+ for (i = 0; i < nopt; i++) {
+    opcionesCheckbox[i]=xmlDoc.getElementById("jaap006").getElementsByTagName('option')[i].innerHTML;
+ }
+ ponerDatosCheckboxHtml(tituloCheckbox2 , 2, opcionesCheckbox);
 
  // Enunciado preguntas select
- var tituloSelect1=xmlDoc.getElementsByTagName("title")[5].innerHTML;
+ var tituloSelect1=xmlDoc.getElementsByTagName("title")[10].innerHTML;
  var opcionesSelect = [];
- var nopt = xmlDoc.getElementById("jaap006").getElementsByTagName('option').length;
-  for (i = 0; i < nopt; i++) {
-    opcionesSelect[i] = xmlDoc.getElementById("jaap006").getElementsByTagName('option')[i].innerHTML;
+ var nopt = xmlDoc.getElementById("jaap009").getElementsByTagName('option').length;
+	for (i = 0; i < nopt; i++) {
+		opcionesSelect[i] = xmlDoc.getElementById("jaap009").getElementsByTagName('option')[i].innerHTML;
  }
  ponerDatosSelectHtml(tituloSelect1, 1, opcionesSelect);
 
 
- var tituloSelect2=xmlDoc.getElementsByTagName("title")[8].innerHTML;
+ var tituloSelect2=xmlDoc.getElementsByTagName("title")[11].innerHTML;
  var opcionesSelect = [];
- var nopt = xmlDoc.getElementById("jaap009").getElementsByTagName('option').length;
-  for (i = 0; i < nopt; i++) {
-    opcionesSelect[i] = xmlDoc.getElementById("jaap009").getElementsByTagName('option')[i].innerHTML;
+ var nopt = xmlDoc.getElementById("jaap010").getElementsByTagName('option').length;
+	for (i = 0; i < nopt; i++) {
+		opcionesSelect[i] = xmlDoc.getElementById("jaap010").getElementsByTagName('option')[i].innerHTML;
  }
  ponerDatosSelectHtml(tituloSelect2, 2, opcionesSelect);
 
 
-
- // Enunciado preguntas checkbox
- var tituloCheckbox1 = xmlDoc.getElementsByTagName("title")[4].innerHTML;
- var opcionesCheckbox = [];
- var nopt = xmlDoc.getElementById("jaap004").getElementsByTagName('option').length;
- for (i = 0; i < nopt; i++) {
-    opcionesCheckbox[i]=xmlDoc.getElementById("jaap004").getElementsByTagName('option')[i].innerHTML;
- }
- ponerDatosCheckboxHtml(tituloCheckbox1, 1, opcionesCheckbox);
-
- var tituloCheckbox2 = xmlDoc.getElementsByTagName("title")[6].innerHTML;
- var opcionesCheckbox = [];
- var nopt = xmlDoc.getElementById("jaap007").getElementsByTagName('option').length;
- for (i = 0; i < nopt; i++) {
-    opcionesCheckbox[i]=xmlDoc.getElementById("jaap007").getElementsByTagName('option')[i].innerHTML;
- }
- ponerDatosCheckboxHtml(tituloCheckbox2 , 2, opcionesCheckbox);
 
 }
 
