@@ -120,6 +120,7 @@ ponerDatosRadioHtml(tituloRadio2, 2, opcionesRadio2);
 // poner los datos recibios en el HTML
 function ponerDatosInputHtml(t, pos) {
     document.getElementById("input" + pos).innerHTML = t;
+
 }
 
 function ponerDatosSelectHtml(t, pos, opt) {
