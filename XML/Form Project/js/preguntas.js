@@ -74,7 +74,7 @@ function gestionarXml(dadesXml) {
 
     var tituloInput2 = xmlDoc.getElementsByTagName("title")[1].innerHTML;
     ponerDatosInputHtml(tituloInput2, 2);
-        respuestaTexto1 = "coche";
+        respuestaTexto2 = "coche";
 
 
     // Enunciado preguntas select
