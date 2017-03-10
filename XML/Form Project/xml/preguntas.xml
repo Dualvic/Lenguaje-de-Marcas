@@ -35,7 +35,7 @@
         <option>Avada Kedavra</option>
         <option>Abra Kadabra</option>
         <option>Abadada Kedabra</option>
-        <answer>avada kedavra</answer>
+        <answer>Avada kedavra</answer>
     </question>
     <question id='jaap006'>
         <type>checkbox</type>
@@ -78,7 +78,7 @@
         <option>Walt Disney Pictures</option>
         <option>Warners Brothers</option>
         <option>Dreamworks</option>
-        <answer>Walt Disney Pictures</answer>
+        <answer>0</answer>
     </question>
     <question id='jaap010'>
         <type>select</type>

@@ -1,12 +1,12 @@
 body {
-  background-color: #C3C49E;
+  background-color: #545643;
   height: 100%;
   padding: 0;
   margin: 0;
 }
 
 button {
-    background-color: #583E23;
+    background-color: #7B2D26;
     color: white;
     padding: 14px 25px;
     text-align: center;
@@ -18,12 +18,12 @@ button {
 }
 
 button:hover {
-  background-color: #8F7E4F;
+  background-color: #453A49;
   color: black;
 }
 
 div {
-  background-color:#524632;
+  background-color:#69140E;
   font-family:Verdana, Geneva,sans-serif;
   font-size:1em;
   color:white;
@@ -47,7 +47,7 @@ footer {
 }
 
 a:link, a:visited {
-    background-color: #583E23;
+    background-color: #7B2D26;
     color: white;
     padding: 14px 25px;
     text-align: center;
@@ -58,7 +58,7 @@ a:link, a:visited {
 }
 
 a:hover, a:active {
-    background-color: #8F7E4F;
+    background-color: #453A49;
     color: black;
 }
 ul {
@@ -76,19 +76,9 @@ ul {
   text-align: center;
 }
 
-#crono {
-  position: fixed;
-  background-color: white;
-  color: black;
-  top: 0px;
-  left: 42%;
-  margin:10px 50px;
-  padding:10px;
-}
-
 #resultsButton {
   left: 50%;
-  background-color: #583E23;
+  background-color: #7B2D26;
   border: none;
   color: white;
   padding: 15px 32px;
@@ -101,22 +91,52 @@ ul {
 }
 
 #resultsButton:hover {
-  background-color: #8F7E4F;
+  background-color: #453A49;
 }
 
 #instrucciones {
-  background-image: url("../img/infologo.png");
   float: right;
-  margin-right: 50px;
+  background-color: #242038;
+  position: absolute;
   background-repeat: no-repeat;
-  height: 90px;
-  background-size: 100%;
-  background-position: 50% 50%;
-  display:block;
+  display:none;
   margin:20px 10px;
   padding:10px 20px;
 }
 
 #selectMultiple{
   width: 15%;
+}
+
+#comprobacion{
+  display: none;
+}
+
+#buttonClose {
+  float: right;
+  right: 50%;
+}
+
+#resultButton {
+  float:right;
+  right: 80%;
+  position: absolute;
+  background-color: #7B2D26;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border:2px solid black;
+  border-radius:15px;
+
+}
+
+#resultButton:hover {
+  background-color: #453A49;
+}
+
+#resultadosDiv {
+  display: none;
 }

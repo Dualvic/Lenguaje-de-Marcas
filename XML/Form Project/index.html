@@ -4,88 +4,102 @@
 		<title>Proyecto Formularios</title>
 		<meta http-equiv=Content-Type content="text/html; charset=UTF-8">
 		<meta name="description" content="Proyecto de formularios con uso de XML">
-		<meta name="viewport" content="width=device-width, initial-scale=1.0">
-		<link rel='stylesheet' media='screen and (min-width: 961px)' href='css/style.css'>
+		<link rel='stylesheet' href='css/style.css'>
 		<script src="js/preguntas.js"></script>
 	</head>
 
 <body>
 
-	<div id="crono">
-		<span id="minutos">00</span>:<span id="segundos">00</span>
-	</div>
-
 	<div id="homeDiv">
 		<br/>
 		<img src="img/logo.png" alt="Harvard Official Logo">
-		<h3><b><i>Harvard University - Veritas<br/><br/>
-		Cambridge, Massachusetts 02138, EE. UU.<br/></i></b></h3>
+		<h3><b><i>HarvarT University - Veritas<br/><br/>
+		Cambridge, False Street 123, EE. UU.<br/></i></b></h3>
 		<div id="menu">
 			<ul>
 				<a href="index.html"><b>Comenzar de nuevo</b></a>
-				<button onclick="instrucciones()"><b>Instrucciones del Examen</b></a>
+				<button type="button" onclick="mostrarInstrucciones()"><b>Instrucciones del Examen</b></a>
 			</ul>
 		</div>
 	</div>
 
+	<div id = "instrucciones">
+	<h3> Instrucciones </h3>
+	<p>  - Los Técnicos Vigilantes sólo avisarán a los alumnos el acceso al aula al comienzo del día. Para las siguientes
+horas no serán avisados o llamados sino que será el alumno quien DEBE acceder al aula a la hora de comienzo
+que figure en su matrícula. Sólo se permiten 5 minutos de demora en dicha hora de entrada.
+Tenga disponible su DNI, Pasaporte o NIE para comprobar sus datos personales, indicarle el puesto y facilitarle
+su código personal para acceder al examen.<br><br>
+- Deposite TODOS sus objetos personales y abrigos en las taquillas que se ponen a su disposición en la sala. <br><br>
+- Las mesas deben estar vacías, DNI’s guardados. Lea con atención las instrucciones que figuran expresas en
+pantalla. Una vez leídas, seleccione el botón de “Aceptar” para continuar con el acceso a su prueba.<br><br>
+- Tenga en cuenta que el teclado está inaccesible e invalidado para su uso durante el examen. Deberá utilizar
+el ratón exclusivamente.<br><br>
+- Introduzca el código de acceso personal e intransferible que le será facilitado por el Técnico Vigilante. Una vez
+aceptado el código por el sistema, dará comienzo su prueba.<br><br> </p>
+<br>
+<br>
+		<button type="button" onclick="ocultarInstrucciones()" id= "buttonClose"><b>Cerrar instrucciones</b></a>
+
+	 </div>
+
+
 	<form id='exam'>
 
 	<div>
-		<h3 id="input1">Primera pregunta</h3>
+		<h3 id="input1" class="preguntas">Primera pregunta</h3>
 		<input id="string1" type="text">
 	</div>
 
 	<div>
-		<h3 id="checkbox1">Segunda pregunta</h3>
+		<h3 id="checkbox1" class="preguntas">Segunda pregunta</h3>
 		<div id="checkboxDiv1"></div>
 	</div>
 
 	<div>
-		<h3 id='radio1'>Tercera Pregunta</h3>
+		<h3 id='radio1' class="preguntas">Tercera Pregunta</h3>
 		<div id="radioDiv1"></div>
 
 	</div>
 
 	<div>
-		<h3 id="select1">Cuarta pregunta</h3>
+		<h3 id="select1" class="preguntas">Cuarta pregunta</h3>
 		<select id="selectOptions1">
 			<option selected value="-1">Selecciona una...</option>
 		</select> <br>
 	</div>
 	<div>
-		<h3 id="checkbox2">Quinta pregunta</h3>
+		<h3 id="checkbox2" class="preguntas">Quinta pregunta</h3>
 		<div id="checkboxDiv2"></div>
 	</div>
 	<div>
-		<h3 id="multiple1">Sexta pregunta</h3>
-		<div id="multipleDiv1"></div>
+		<h3 id="multiple1" class="preguntas">Sexta pregunta</h3>
+		<seletc id="multipleDiv1"></div>
 	</div>
 	<div>
-		<h3 id="input2">Septima pregunta</h5>
-		<input id='string2' type='string'>
+		<h3 id="input2" class="preguntas">Septima pregunta</h5>
+		<input id='string2' type='text'>
 	</div>
 	<div>
-		<h3 id="select2">Octava pregunta</h3>
+		<h3 id="select2" class="preguntas">Octava pregunta</h3>
 		<select id="selectOptions2">
 			<option selected value="-1">Selecciona una...</option>
 		</select> <br>
 	</div>
 	<div>
-		<h3 id="radio2">Novena pregunta</h5>
+		<h3 id="radio2" class="preguntas">Novena pregunta</h5>
 		<div id="radioDiv2"></div>
 	</div>
 	<div>
-		<h3 id="multiple2">Decima pregunta</h3>
+		<h3 id="multiple2" class="preguntas">Decima pregunta</h3>
 		<div id="multipleDiv2"></div>
 	</div>
   <br><br>
 
-  <input type='submit' value='Corregir'>
+  <input type='submit' value='Corregir' class="preguntas" id="resultButton">
  </form>
 
-<div id="comprobacion">
-	<h5>RESULTADOS: </h5>
-	<div>Hola</div>
+<div id="resultadosDiv">
 </div>
 
 <footer>
