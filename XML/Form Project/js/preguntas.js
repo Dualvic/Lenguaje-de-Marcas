@@ -237,7 +237,7 @@ function corregirTexto1() {
 function corregirTexto2() {
 
     var s = document.getElementById("string2").value;
-    if (s == respuestaTexto1) {
+    if (s == respuestaTexto2) {
         darRespuestaHtml("P7: Exacto!");
         nota += 1;
     } else {
