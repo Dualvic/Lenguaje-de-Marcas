@@ -1,0 +1,29 @@
+[
+	{
+		"id":"new_4",
+		"nav_element":"Noticia 4",
+		"titulo":"Star Wars VIII: Los últimos Jedi",
+		"desc":"Ojo Spoilers!: El sitio MSW reveló ayer miércoles el nombre que tendrán los “caballos espaciales” que vimos por primera vez en las imágenes filtradas el año pasado desde el set que se levantó en la ciudad de Dubrovnik en Croacia para las filmaciones del Episodio VIII: Los Últimos Jedi.",
+		"datetime":"04/05/2017 05:00",
+		"imgmid":"img/LogoTheLastJedi.jpg",
+		"imgbig":"a"
+	},
+	{
+		"id":"new_5",
+		"nav_element":"Noticia 5",
+		"titulo":"Una 'Star Wars' muy real: cuando la Fuerza te acompaña hasta construir cazas o pensar en la física del sable láser",
+		"desc":"Hay sagas cinematográficas por las que no pasa el tiempo, o por las que por mucho que pase mantienen el fenómeno fan hasta hacerse realidad aunque se trate de un universo totalmente fantástico (en los dos sentidos de la palabra). Si eres fan de Star Wars probablemente tengas algo de merchandising, quizás camisetas o alguna réplica, pero hay quien no se conforma con eso y con mucha dedicación e ingenio logra materializar naves y elementos de Star Wars.",
+		"datetime":"07/05/2017 18:00",
+		"imgmid":"img/deathstar.jpg",
+		"imgbig":"b"
+	},
+	{
+		"id":"new_6",
+		"nav_element":"Noticia 6",
+		"titulo":"Los próximos 40 años de ‘Star Wars’",
+		"desc":"Star Wars acaba de cumplir sus primeros 40 años y da la sensación de nunca terminará de crecer y de sorprender. Lejos queda el nacimiento de un fenómeno que sorprendió a todos hace cuatro décadas con tres películas que cambiaron el sentido de lo que era el espectáculo en Hollywood. Hace 20 años, llegó una nueva trilogía que asentó la adolescencia de este fenómeno. Casi 20 años después de los episodios I al III, Disney adoptó a la criatura para llevarle a una madurez que promete ser eterna. ¿Dentro de otro ciclo de 20 años se volverá a reinventar? Igual no será necesario, el futuro de la saga galáctica pasa por no dejar olvidar al espectador que Star Wars es un pozo infinito de historias, un Sarlacc en el que la digestión durará miles de años.",
+		"datetime":"04/05/2017 13:51",
+		"imgmid":"img/noticia6.jpg",
+		"imgbig":"c"
+	}
+]

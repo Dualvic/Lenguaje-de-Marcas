@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+
+	<channel>
+		<title>Imperial News</title>
+		<atom:link href="https://rawgit.com/am4rtinez/news-lmsgi07/master/rss/rss.xml" rel="self" type="application/rss+xml"/>
+		<link>https://rawgit.com/am4rtinez/news-lmsgi07/master/news.html</link>
+		<description>Tu sitio de noticias frikis.</description>
+		<language>es-es</language>
+		<category>News</category>
+		<category>Star Wars</category>
+		<copyright>2017 Angel Martinez. All rights reserved.</copyright>
+		<lastBuildDate>Tue, 09 May 2017 13:00:00 GMT</lastBuildDate>
+		<pubDate>Tue, 09 May 2017 13:00:00 GMT</pubDate>
+		<managingEditor>anglxd@wgmail.com (Angel Martinez)</managingEditor>
+		<webMaster>anglxd@wgmail.com (Angel Martinez)</webMaster>
+		<image>
+			<url>https://rawgit.com/am4rtinez/news-lmsgi07/master/img/logo.png</url>
+			<title>Imperial News</title>
+			<link>https://rawgit.com/am4rtinez/news-lmsgi07/master/news.html</link>
+		</image>
+		
+		<item>
+			<guid isPermaLink="false">New_1</guid>
+			<title>Star Wars Battlefront 2 tendrá modo campaña: todos los detalles</title>
+			<link>https://rawgit.com/am4rtinez/news-lmsgi07/master/news1.html</link>
+			<description><![CDATA[ <p>Todo fan de Star Wars que se precie vive pendiente del lanzamiento de nuevos videojuegos de la franquicia. Por eso, todos recibieron con los brazos abiertos el que se ha convertido en uno de los mejores shooter hoy por hoy: Star Wars Battlefront. La buena noticia para ellos es que EA Games ha desvelado nuevos detalles sobre Star Wars Battlefront 2.</p> ]]></description>
+			<category>Star Wars</category>
+			<category>Battlefron II</category>
+		</item>
+		<item>
+			<guid isPermaLink="false">New_2</guid>
+			<title>Todo lo que necesitas saber sobre Star Wars Battlefront II</title>
+			<link>https://rawgit.com/am4rtinez/news-lmsgi07/master/news2.html</link>
+			<description><![CDATA[ <p>La llegada de 'Los Últimos Jedi' coincidirá con el 40º aniversario de la saga galáctica por excelencia y tanto Disney como Lucasfilm no repararán en medios para celebrar esta alineación de astros, siendo 'Star Wars Battlefront II' su propuesta estrella para consolas y PC.</p> ]]></description>
+			<category>Star Wars</category>
+			<category>Battlefron II</category>
+		</item>
+		<item>
+			<guid isPermaLink="false">New_3</guid>
+			<title>Star Wars VIII: Los últimos Jedi - El collar de Luke esconde un secreto (RUMOR)</title>
+			<link>https://rawgit.com/am4rtinez/news-lmsgi07/master/news.html</link>
+			<description><![CDATA[ <p>Un nuevo rumor de Star Wars VIII - Los últimos Jedi apunta a un secreto escondido en el collar que lleva Luke Skywalker y que tendría que ver con Darth Vader.</p><p>El teaser tráiler de Star Wars: Episodio VIII - Los últimos Jedi ha reavivado la imaginación de los millones de fans de la saga y también muchos, que digo, muchísimos rumores, por supuesto sin confirmación ninguna.</p> ]]></description>
+			<category>Star Wars</category>
+			<category>Star Wars VIII</category>
+			<category>Los últimos Jedi</category>
+		</item>
+	</channel>
+
+</rss>

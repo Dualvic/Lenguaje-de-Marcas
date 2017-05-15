@@ -1,0 +1,29 @@
+[
+   {
+      "id":"new_7",
+      "nav_element":"Noticia 7",
+      "titulo":"Star Wars: Battlefront II ofrecería compatibilidad con PlayStation VR en PS4",
+      "desc":"El nuevo videojuego de Star Wars, Star Wars: Battlefront II, podría contar con contenido diseñado para la realidad virtual en PlayStation 4. Según una filtración de la PS Store y la Newsletter de la que se hacen eco en NeoGAF, Sony habría puesto el icono de compatibilidad de PlayStation VR indicando la existencia de contenido para la realidad virtual.",
+      "datetime":"08/05/2017 18:23",
+      "imgmid":"img/SW_BF2_Logo.png",
+      "imgbig":"a"
+   },
+   {
+      "id":"new_8",
+      "nav_element":"Noticia 8",
+      "titulo":"Un nuevo comienzo para 'Star Wars', pero sin la Princesa Leia",
+      "desc":"La actriz había dado su consentimiento para utilizar el material grabado antes de su muerte, pero la productora decidió no incluirlo. El equipo de la nueva película de la saga intergaláctica cambió completamente el guión del nuevo filme, cuyo estreno se prevé para el 2019, tras la muerte de Carrie Fisher.",
+      "datetime":"09/05/2017 17:00",
+      "imgmid":"img/leia.jpg",
+      "imgbig":"b"
+   },
+   {
+      "id":"new_9",
+      "nav_element":"Noticia 9",
+      "titulo":"Star Wars: El director de Los últimos Jedi pidió cambiar el final de El despertar de La Fuerza",
+      "desc":"No cabe duda de que el Star Wars Day de 2017 ha dado mucho de sí. El 4 de mayo, día mundial de la franquicia de Star Wars, reunió a actores, seguidores de la saga, productores, y, por su puesto, directores de las míticas películas. Rian Johnson, director del próximo episodio Los últimos Jedi, no se perdió esta cita en la que aprovechó para compartir que antes de tomar el relevo de J.J. Abrams exigió cambiar el final de El despertar de la Fuerza.",
+      "datetime":"05/05/2017 10:21",
+      "imgmid":"img/noticia9.jpg",
+      "imgbig":"c"
+   }
+]
