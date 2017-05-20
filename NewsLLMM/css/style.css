@@ -1,0 +1,258 @@
+body {
+    background-image: url(/NewsLLMM/img/background-body.jpg);
+}
+
+nav {
+    background-color: #1C1C1C;
+}
+
+.navbar {
+    margin-bottom: 0;
+    background-color: #060301;
+    z-index: 9999;
+    border: 0;
+    font-size: 12px !important;
+    line-height: 1.42857143 !important;
+    letter-spacing: 2px;
+}
+
+.navbar li {
+    height: 100%;
+}
+
+
+.navbar-nav li.active {
+    color: #0e0505 !important;
+    background-color: #b44b0a !important;
+}
+
+.navbar-nav li a:hover{
+    color: #0e0505 !important;
+    background-color: #b44b0a !important;
+}
+
+.navbar-nav li a:focus {
+    color: #b44b0a;
+}
+
+.navbar-default .navbar-toggle {
+    border-color: transparent;
+    color: #B40431 !important;
+}
+
+.navbar-brand img{
+    width: 30%;
+    margin-top: -10px;
+}
+
+.jumbotron {
+    background-image: url(/NewsLLMM/img/jumbotronimage.jpg);
+    background-size: cover;
+    color: #fbfffd;
+    padding: 100px 25px;
+    font-family: Montserrat, sans-serif;
+    border-bottom: groove;
+    border-radius: 10px;
+    border-width: 10px;
+    border-color: #81b6ff;
+}
+
+.jumbotron h1 {
+    background: linear-gradient(#ff00d4, #060301);
+    -webkit-background-clip: text;
+    color: transparent;
+    color: transparent;
+    position: relative;
+    margin-right: 100px;
+}
+
+.jumbotron p {
+
+    background: linear-gradient(#b42d86, #ffffff);
+    -webkit-background-clip: text;
+    color: transparent;
+    color: transparent;
+    position: relative;
+    margin-left: 100px;
+
+}
+
+#myPage {
+    background-color: #1C1C1C;
+}
+
+.row > .col-xs-12 {
+    position: relative;
+    height: 100%;
+    width: 100%;
+    background-color: #243e54;
+    margin: 1em 1em;
+    border-radius: 15px;
+}
+
+.new {
+    position: relative;
+    height: auto;
+    width: 100%;
+}
+
+.new h1,.new h2 {
+    padding-top: 5px;
+    padding-bottom: 10px;
+    color: #ffffff;
+    padding-left: 10px;
+}
+
+#title {
+    position: relative;
+    height: 100px;
+    background-color: #a8a5b4;
+    margin: 1em 1em;
+    border-radius: 10px;
+}
+
+#new-container {
+    position: relative;
+    height: 100px;
+    background-color: #060301;
+    margin: 1em 1em;
+    border-radius: 10px;
+}
+
+#new-container p {
+    padding-top: 5px;
+    padding-bottom: 10px;
+    color: #ffffff;
+    padding-left: 10px;
+    font-family: "Berlin Sans FB";
+}
+
+#new-footer {
+
+}
+
+#new-footer .glyphicon {
+    font-size: 20px;
+    margin-bottom: 20px;
+    color: #fbfffd;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+footer {
+    margin-top: 35px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: #243e54;
+    color: #ffffff;
+}
+
+footer .glyphicon {
+    font-size: 20px;
+    margin-bottom: 20px;
+    color: #f5f2ff;
+}
+
+/* ============ Media Query ============ */
+
+/* Extra Small Devices */
+@media (max-width: 767px) {
+    .advert-container{
+        width: 100%;
+        position: fixed;
+        z-index: 99999;
+        top: 0;
+        left: 0;
+        height: 90px;
+        background-color: #B40431;
+    }
+
+    .advert-container p{
+        padding-top: 40px;
+        color: #000;
+        font-family: Arial;
+        font-weight: bold;
+    }
+
+    .advert-container .imagen img{
+        padding-top: 10px;
+        height: 80px;
+    }
+
+    .advert-container .imagen p{
+        display: none;
+    }
+
+}
+
+/* Small Devices Tablets*/
+@media (min-width: 768px) and (max-width: 991px) {
+    .main-container{
+        width: calc(100% - 200px);;
+    }
+
+    .advert-container{
+        width: 200px;
+        margin-top: 20px;
+        background-color: #B40431;
+        float:right;
+    }
+
+    .advert-container p{
+        padding-top: 10px;
+        color: #000;
+        font-family: Arial;
+    }
+
+    .advert-container .imagen img{
+        padding-top: 20px;
+    }
+
+    .advert-container .imagen p{
+        padding-top: 5px;
+    }
+}
+
+/* Medium and Large Devices Desktops */
+@media (min-width: 992px) {
+    .main-container{
+        width: calc(100% - 300px);;
+    }
+
+    .advert-container{
+        width: 300px;
+        margin-top: 20px;
+        background-color: #B40431;
+        float:right;
+    }
+
+    .advert-container p{
+        padding-top: 10px;
+        color: #000;
+        font-family: Arial;
+    }
+
+    .advert-container .imagen img{
+        padding-top: 20px;
+    }
+
+    .advert-container .imagen p{
+        padding-top: 5px;
+    }
+}
+
+
+
+
+
+
