@@ -1,0 +1,26 @@
+[
+  {
+    "id":"new_4",
+    "nav_element":"New 4",
+    "titulo":"Rajoy señala al plasma como principal responsable de la trama Gürtel",
+    "desc":"Millones de españoles admiten que, aunque Mariano Rajoy no es quizá el líder que más les convence a nivel político, sí sería su opción predilecta para tomarse una cerveza con él y mantener una charla distendida con la única intención de pedirle que dimita, según recoge el último barómetro del CIS, publicado esta mañana.",
+    "imgmid":"img/new4.png",
+    "imgbig":"a"
+  },
+  {
+    "id":"new_5",
+    "nav_element":"New 5",
+    "titulo":"El juez busca a un traductor que pueda interpretar el lenguaje arcano en el que testifica Esperanza Aguirre",
+    "desc":"Quejándose de que la razón humana es incapaz de entender sus grotescos ruidos guturales, los jueces del caso Gürtel han ordenado buscar de urgencia un traductor que sea capaz de interpretar el pseudolenguaje arcano que Aguirre ha decidido utilizar durante su comparecencia como testigo en el juicio por la primera época de actividades de la trama Gürtel (entre 1999-2005). Su comparecencia se produce apenas un día después de la detención de Ignacio González, quien fue su mano derecha en la Comunidad de Madrid.",
+    "imgmid":"img/new5.jpg",
+    "imgbig":"b"
+  },
+  {
+    "id":"new_6",
+    "nav_element":"New 6",
+    "titulo":"Los sondeos sobre la independencia de Cataluña confirman que el “¿Otra vez con esto?” ya supera al “Sí” en cuatro puntos",
+    "desc":"El independentismo no ha logrado, a pocos meses de que venza el plazo que se puso Carles Puigdemont para convocar un referéndum, despegar en las encuestas. Según el barómetro del Centro de Estudios de Opinión (CEO) de la Generalitat presentado hoy, el “¿Otra vez con esto?” amplía su ventaja: el 35’4% de los ciudadanos pregunta si ya estamos otra vez “dando la turra” con el tema ese de que Cataluña sea un Estado independiente, frente al 31’5% que apoya el proceso independentista.",
+    "imgmid":"img/new6.jpg",
+    "imgbig":"c"
+  }
+]
