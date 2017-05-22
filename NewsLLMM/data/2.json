@@ -1,0 +1,20 @@
+[
+  {
+    "fecha":"22/05/2017",
+    "titulo":"Rajoy señala al plasma como principal responsable de la trama Gürtel",
+    "desc":"Pidiendo “un poco de respeto”, los altos ejecutivos de las treinta y cinco compañías que integran el Ibex han comparecido esta mañana en rueda de prensa para pedir formalmente al ministro de Hacienda, Cristóbal Montoro, que deje de referirse a ellos como “mis niños”, “pichoncitos” o “fieras”.",
+    "imagen":"./img/new7.jpg"
+  },
+  {
+    "fecha":"22/05/2017",
+    "titulo":"Anulan la pena a la tuitera que bromeó sobre Carrero Blanco porque el juez ha entendido el chiste",
+    "desc":"El juez de la Audiencia Nacional que había condenado a Casandra Vera a un año de cárcel por unos tuits sobre Carrero Blanco ha rectificado porque, al final, ha entendido los chistes. El magistrado justifica su nueva decisión porque “a veces, cuando lees algo, no entiendes el tono en el que se dice”.",
+    "imagen":"./img/new8.png"
+  },
+  {
+    "fecha":"22/05/2017",
+    "titulo":"Mariano Rajoy logra sacar adelante la ley del mínimo esfuerzo",
+    "desc":"Días después del fracaso de las negociaciones de la estiba, el presidente del Gobierno ha logrado al fin la mayoría suficiente para aprobar la ley del mínimo esfuerzo. Esta ley, uno de los principales puntos del programa de Rajoy, legitima la gestión del Gobierno en las últimas legislaturas. “La verdad es que se ha aprobado sola, como es de ley”, ha declarado este mediodía el mandatario.",
+    "imagen":"./img/new9.png"
+  }
+]

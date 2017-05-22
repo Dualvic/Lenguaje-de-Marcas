@@ -1,122 +1,76 @@
-$(document).ready(function(){
+/*Cargamos los json de las noticias al cargar la pagina para trabajar con ellos */
+var noticiasJSON1;
+var noticiasJSON2;
+var scroll = false;
+var scroll1 = false;
+var contadorNoticia = 0;
 
-	var scroll_bool = false;
-	var i = 0;
-	var stats = 3;
-	/*
-	 * Comprueba si la ventana modifica su tamaño.
-	 * En el caso correcto si el tamñano es menor a 768 píxels se comprueba si esta en el top 
-	 * para activar el banner en dispositivos móviles. En caso contrario se deja el banner activo.
-	*/
-	window.onresize = function() {
-    	$(window).scroll(function(){
-    		if ($(window).width() < 768) {
-    			if ($(window).scrollTop() == 0){
-					$(".advert-container").show();
-				} else  {
-					$(".advert-container").hide();
-				}
-    		} else {
-    			$(".advert-container").show();
-    		}			
-		});	
-	}
 
-	$("#scrolling").click(function(){
-		if (scroll_bool == false) {
-			scroll_bool = true;
-			$(this).html("<span class=\"glyphicon glyphicon-stop\"></span> Desactivar Scrolling");
-			alert("Ha activado el scrolling");
-		} else {
-			scroll_bool = false;
-			$(this).html("<span class=\"glyphicon glyphicon-play\"></span> Activar Scrolling");
-			alert("Ha desactivado el scrolling");
-		}
-	    
-	});
+$(document).ready(function () {
+    $("#adv").click(function(){
+        $(this).hide(1000);
+    });
+})
 
-	$("#more-news").click(function(){
-		if (i == 0){
-			cargarJSON(i+1);
-			i++;
-		} else if (i == 1){
-			cargarJSON(i+1);
-			i++;
-			$("#more-news").hide();
-		} 
-	});
 
-	$(window).scroll(function(){
-		if (($(window).scrollBottom()==0) && (scroll_bool)){
-			if (i == 0){
-				cargarJSON(i+1);
-				i++;
-			} else if (i == 1){
-				cargarJSON(i+1);
-				i++;
-				$("#more-news").hide();
-			}
-		};		
-	});
 
-	$.fn.scrollBottom = function() { 
-		return $(document).height() - this.scrollTop() - this.height(); 
-	};
 
-	function cargarJSON(i){
-		fichero = "data/" + i + ".json";
-		$.getJSON(fichero, function(jsonObject) {
-	        ponerNoticias(jsonObject);
-	    });
-	}
+$( document ).ready(function() {
+    fechaHora();
+    cargarJson();
+    $(window).scroll(function() {
+        fillNews();
+    });
+});
 
-	function ponerNoticias(json){
-     $.each( json, function(j, item) {
+function cargarJson()
+{
+    $.getJSON('data/1.json', function(jsonObject) {
+        noticiasJSON1 = jsonObject;
+    });
 
-		var noticia_container = $('<div>');
-		var img = $('<img>');
-		var section = $('<section>');
-		var h2  = $('<h2>');
-		var datetime = $('<div>');
-		var info = $('<div>');
-		var p   = $('<p>');
-		var imagen = $('<div>');
+    $.getJSON('data/2.json', function(jsonObject) {
+        noticiasJSON2 = jsonObject;
+    });
 
-		var li = $('<li>');
-     	var a = $('<a>');
-
-		noticia_container.attr('id', item.id);
-		noticia_container.attr('class', 'container-fluid');
-		section.attr('class', 'noticias');
-		h2.text(item.titulo);
-		datetime.attr('class', 'datetime');
-		datetime.text(item.datetime);
-		info.attr('class', 'informacion');
-		p.text(item.desc);
-		datetime.attr('class', 'datetime');
-		datetime.html('<span class=\"glyphicon glyphicon-calendar\"></span>' + item.datetime);
-		img.attr('class', 'img-responsive center-block');
-		img.attr('src', item.imgmid);
-
-		h2.appendTo(section);
-		datetime.appendTo(section);
-		info.appendTo(section);
-		p.appendTo(info);
-		img.appendTo(imagen);
-		imagen.appendTo(section);
-		section.appendTo(noticia_container);
-     	noticia_container.appendTo('.main-container');
-
-     	a.attr('href', '#'+item.id);
-     	a.text(item.nav_element);
-     	a.appendTo(li);
-     	li.appendTo(".nav");
-
-     	//Modifica el número de noticias visualizadas en el sitio.
-     	stats = stats + 1;
-     	$('.stats').html('<span class=\"glyphicon glyphicon-eye-open\"></span><p>' + stats + ' noticias visualizadas en el sitio.</p>');
-
-     }); 
 }
 
-});
+function addNews1()
+{
+    $.each(noticiasJSON1, function(index) {
+        $("#blog").append("<div class='col-md-10 blogShort'> <h1>" +
+            noticiasJSON1[index].titulo + "</h1> <img src=" +
+            noticiasJSON1[index].imagen + " class='pull-left img-responsive thumb margin10 img-thumbnail' width='304' height='236'> <div id='datetime'><span class='glyphicon glyphicon-calendar'></span><em>" +
+            noticiasJSON1[index].fecha + "</em></div><hr><article><p>" +
+            noticiasJSON1[index].desc + "</p></article></div>");
+    });
+}
+
+function addNews2()
+{
+    $.each(noticiasJSON2, function(index) {
+        $("#blog").append("<div class='col-md-10 blogShort'> <h1>" +
+            noticiasJSON2[index].titulo + "</h1> <img src=" +
+            noticiasJSON2[index].imagen + " class='pull-left img-responsive thumb margin10 img-thumbnail' width='304' height='236'> <div id='datetime'><span class='glyphicon glyphicon-calendar'></span><em>" +
+            noticiasJSON2[index].fecha + "</em></div><hr><article><p>" +
+            noticiasJSON2[index].desc + "</p></article></div>");
+    });
+}
+
+function fechaHora()
+{
+    $("#datetime").text( (new Date).getFullYear() );
+}
+
+function fillNews()
+{
+    if($(window).scrollTop() + $(window).height() == $(document).height()) {
+        if (scroll == false) {
+            addNews1();
+            scroll = true;
+        }else if(scroll == true && scroll1 == false){
+            addNews2();
+            scroll1 = true;
+        }
+    }
+}

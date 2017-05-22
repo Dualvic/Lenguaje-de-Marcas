@@ -151,7 +151,12 @@ h2{color:#34ca78;}
     color: #f39c12;
 }
 #adv {
-    height: 100%;
+    background-image: url(../img/adv.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    height: 200px;
+    width: 100%;
+    margin-right: 0px;
 }
 .glyphicon {
     color: #34ca78;
