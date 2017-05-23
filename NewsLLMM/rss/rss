@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0">
+
+    <channel>
+
+        <title>Project News</title>
+        <link>https://rawgit.com/Dualvic/Lenguaje-de-Marcas/master/NewsLLMM/index.html</link>
+        <description>Noticias y comedia reunidas en un mismo sitio.</description>
+        <item>
+            <title>Apple presenta el nuevo chino que fabricará el nuevo iPhone</title>
+            <link>https://rawgit.com/Dualvic/Lenguaje-de-Marcas/master/NewsLLMM/news1.html</link>
+            <description>
+                Presentamos la nueva sensacion de mano de una de las marcas mobiles mas conocidas del mercado, Apple.
+            </description>
+            <image>hhttps://rawgit.com/Dualvic/Lenguaje-de-Marcas/master/NewsLLMM/img/new1.jpg</image>
+        </item>
+        <item>
+            <title>Las claves que han llevado al Real Madrid a ganar la Liga por trigeminotercia vez</title>
+            <link>https://rawgit.com/Dualvic/Lenguaje-de-Marcas/master/NewsLLMM/news2.html</link>
+            <description>
+                El Real Madrid ha obtenido su título de Liga número treinta y tres. Pero, ¿por qué ha ganado el Madrid la Liga y no la ha ganado, pongamos por caso, el Palamós?
+            </description>
+            <image>https://rawgit.com/Dualvic/Lenguaje-de-Marcas/master/NewsLLMM/img/new2.png</image>
+        </item>
+        <image></image>
+    </channel>
+</rss>
