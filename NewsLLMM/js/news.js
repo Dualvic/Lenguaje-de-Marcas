@@ -1,9 +1,11 @@
-/*Cargamos los json de las noticias al cargar la pagina para trabajar con ellos */
+/**
+ * Created by Victor on 22/05/2017.
+ */
+
 var noticiasJSON1;
 var noticiasJSON2;
 var scroll = false;
 var scroll1 = false;
-var contadorNoticia = 0;
 
 
 $(document).ready(function () {
@@ -11,8 +13,6 @@ $(document).ready(function () {
         $(this).hide(1000);
     });
 })
-
-
 
 
 $( document ).ready(function() {
