@@ -55,7 +55,11 @@
       <file leaf-file-name="news1.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/news1.html">
           <provider selected="true" editor-type-id="text-editor">
+<<<<<<< Updated upstream
             <state relative-caret-position="382">
+=======
+            <state relative-caret-position="-255">
+>>>>>>> Stashed changes
               <caret line="25" column="20" lean-forward="false" selection-start-line="25" selection-start-column="20" selection-end-line="25" selection-end-column="20" />
               <folding />
             </state>
@@ -66,7 +70,11 @@
         <entry file="file://$PROJECT_DIR$/news2.html">
           <provider selected="true" editor-type-id="text-editor">
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
             <state relative-caret-position="272">
+=======
+            <state relative-caret-position="187">
+>>>>>>> Stashed changes
               <caret line="70" column="112" lean-forward="false" selection-start-line="70" selection-start-column="112" selection-end-line="70" selection-end-column="112" />
               <folding>
                 <element signature="e#2235#2243#0" expanded="true" />
@@ -701,15 +709,20 @@
       <option name="presentableId" value="Default" />
       <updated>1495547639892</updated>
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
       <workItem from="1495547641431" duration="2488000" />
 =======
       <workItem from="1495547641431" duration="1662000" />
       <workItem from="1495563205305" duration="409000" />
 >>>>>>> Stashed changes
+=======
+      <workItem from="1495547641431" duration="2608000" />
+>>>>>>> Stashed changes
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
+<<<<<<< Updated upstream
 <<<<<<< Updated upstream
     <option name="totallyTimeSpent" value="2488000" />
   </component>
@@ -722,6 +735,12 @@
     <frame x="-8" y="-8" width="1932" height="1056" extended-state="0" />
 >>>>>>> Stashed changes
     <editor active="true" />
+=======
+    <option name="totallyTimeSpent" value="2608000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-7" y="0" width="1378" height="735" extended-state="0" />
+>>>>>>> Stashed changes
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -898,7 +917,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/news1.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
+        <state relative-caret-position="-255">
           <caret line="25" column="20" lean-forward="false" selection-start-line="25" selection-start-column="20" selection-end-line="25" selection-end-column="20" />
           <folding />
         </state>
@@ -906,7 +925,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/news2.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
+        <state relative-caret-position="187">
           <caret line="70" column="112" lean-forward="false" selection-start-line="70" selection-start-column="112" selection-end-line="70" selection-end-column="112" />
           <folding>
             <element signature="e#2235#2243#0" expanded="true" />
