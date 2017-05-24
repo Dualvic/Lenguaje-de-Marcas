@@ -25,8 +25,15 @@ Los aspectos que quise implementar como primeras ideas fueron:
 -------
 
 ### Desktop
+
 -----------
-IMAGEN AQUI DEL ESQUEMA A PAPEL DESKTOP
+Pense en un estilo blog por la tematica que tenia que tener la web, estos fueron los primeros bocetos:
+
+![preview-desktop1](https://github.com/Dualvic/Lenguaje-de-Marcas/blob/master/NewsLLMM/data/desktop-preview1.png?raw=true)
+
+Y para enseñar bien la idea del footer, lo dibuje aparte:
+
+![preview-desktop2](https://github.com/Dualvic/Lenguaje-de-Marcas/blob/master/NewsLLMM/data/desktop-preview2.png?raw=true)
 
 Esta era la idea principal para el tamaño en pantallas grandes, me parecio que asi podria abarcar todas las ideas de forma mas que decente.
 
@@ -43,8 +50,23 @@ Primer vistazo a la web:
 
 Acoge varios templates adaptados que dejare en el apartado @Herramientas utilizadas.
 
-> Se que el anuncio tenia unas medida des especificas, pero en el mismo documento decía que podíamos cambiarlo siempre y cuando fuera justificado, tuve esta idea de anuncio en scroll visitando otras paginas de éxito y me pareció un buen motivo para hacer el cambio, en vez de un anuncio fijo, un anuncio "interactivo" fijo, pero que se de desplaza si haces scroll.  También  añadí en el JS un hide on click, para desvanecer en anuncio en caso de que queramos hacerlo, sin modificar la estructura responsive.
 
+-------
+
+### Móvil
+
+-----------
+
+Sin muchas variaciones ya que bootstrap lo redimensiona todo prácticamente, solo algunas variaciones en la publicidad y la barra de navegación.
+
+![mobile-preview](https://github.com/Dualvic/Lenguaje-de-Marcas/blob/master/NewsLLMM/data/mobile-preview.jpg?raw=true)
+
+
+### Anuncio
+
+![addpreview](https://github.com/Dualvic/Lenguaje-de-Marcas/blob/master/NewsLLMM/data/add-preview.gif?raw=true)
+
+> Se que el anuncio tenia unas medida des especificas, pero en el mismo documento decía que podíamos cambiarlo siempre y cuando fuera justificado, tuve esta idea de anuncio en scroll visitando otras paginas de éxito y me pareció un buen motivo para hacer el cambio, en vez de un anuncio fijo, un anuncio "interactivo" fijo, pero que se de desplaza si haces scroll.  También  añadí en el JS un hide on click, para desvanecer en anuncio en caso de que queramos hacerlo, sin modificar la estructura responsive.
 
 ### Herramientas utilizadas:
 
