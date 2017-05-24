@@ -11,30 +11,39 @@
 Los aspectos que quise implementar como primeras ideas fueron:
 
 ```
- - Un header algo llamativo, pero coherente con la tematica de la web
+
+ 1. Un header algo llamativo, pero coherente con la tematica de la web
+     
+ 2. Una barra de navegacion simple para aplicar los conocimientos y a la vez implementar el acceso a las tres primeras noticias
  
- - Una barrade navegacion simple para aplicar los conocimientos y a la vez implementar el acceso a las 3 primeras noticias
+ 3. El blog en si, que seria un container donde se auto generarian las noticias, con estilo single-card. 
  
- - El blog en si, que seria un container donde se auto generarian las noticias, con estilo single-card
- 
- - Footer donde poner el acceso a las redes sociales, copyright y autor.
+ 4. Footer donde poner el acceso a las redes sociales, copyright y autor.
+
 ```
 
 -------
 
 ### Desktop
-
+-----------
 IMAGEN AQUI DEL ESQUEMA A PAPEL DESKTOP
 
 Esta era la idea principal para el tamaño en pantallas grandes, me parecio que asi podria abarcar todas las ideas de forma mas que decente.
 
-Para el header encontre por internet que el propio Bootstrap traia consigo un header predefinido que tu podias modificar llamado **Jumbotron**, con varias mdoficiaciones consegui algo parecido a lo que tenia en mente. 
+Para el header encontré por internet que el propio Bootstrap traía consigo un header predefinido que tu podías modificar llamado **Jumbotron**, con varias modificaciones conseguí algo parecido a lo que tenia en mente. 
 
 ``` 
 Nota
-Esto me ayudo a entender que Bootstrap traia 
-consigo clases predefinidas que te facilitan muchisimo el trabajo
+Esto me ayudo a entender que Bootstrap traía 
+consigo clases predefinidas que te facilitan muchísimo el trabajo
 ```
+Primer vistazo a la web:
+
+![enter image description here](https://github.com/Dualvic/Lenguaje-de-Marcas/blob/master/NewsLLMM/data/first-look.png?raw=true)
+
+Acoge varios templates adaptados que dejare en el apartado @Herramientas utilizadas.
+
+> Se que el anuncio tenia unas medida des especificas, pero en el mismo documento decía que podíamos cambiarlo siempre y cuando fuera justificado, tuve esta idea de anuncio en scroll visitando otras paginas de éxito y me pareció un buen motivo para hacer el cambio, en vez de un anuncio fijo, un anuncio "interactivo" fijo, pero que se de desplaza si haces scroll.  También  añadí en el JS un hide on click, para desvanecer en anuncio en caso de que queramos hacerlo, sin modificar la estructura responsive.
 
 
 ### Herramientas utilizadas:
