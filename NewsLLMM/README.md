@@ -61,8 +61,11 @@ Sin muchas variaciones ya que bootstrap lo redimensiona todo prácticamente, sol
 
 ![mobile-preview](https://github.com/Dualvic/Lenguaje-de-Marcas/blob/master/NewsLLMM/data/mobile-preview.jpg?raw=true)
 
+---------
 
 ### Anuncio
+
+--------------
 
 ![addpreview](https://github.com/Dualvic/Lenguaje-de-Marcas/blob/master/NewsLLMM/data/add-preview.gif?raw=true)
 
