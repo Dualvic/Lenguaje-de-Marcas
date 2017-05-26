@@ -1,5 +1,5 @@
 body {
-background-color: #3b3a32;
+    background-color: #3b3a32;
     color: white;
 }
 
@@ -54,14 +54,23 @@ hr {
     margin-left: 100px;
 
 }
-.blogShort{ border-bottom:1px solid #ddd;}
-.add{background: #333; padding: 10%; height: 300px;}
+
+.blogShort {
+    border-bottom: 1px solid #ddd;
+}
+
+.add {
+    background: #333;
+    padding: 10%;
+    height: 300px;
+}
 
 .nav-sidebar {
     width: 100%;
     padding: 8px 0;
     border-right: 1px solid #ddd;
 }
+
 .nav-sidebar a {
     color: #ffffff;
     -webkit-transition: all 0.08s linear;
@@ -69,15 +78,18 @@ hr {
     -o-transition: all 0.08s linear;
     transition: all 0.08s linear;
 }
+
 .nav-sidebar .active a {
     cursor: default;
     background-color: #34ca78;
     color: #fff;
 }
-.nav-sidebar .active a:hover {
+
+.nav-sidebar .active {
     background-color: #37D980;
     color: #000;
 }
+
 .nav-sidebar .text-overflow a,
 .nav-sidebar .text-overflow .media-body {
     white-space: nowrap;
@@ -90,21 +102,28 @@ hr {
     color: #ffffff;
     background-color: #37d980;
     border-color: #37d980;
-    border-radius:0;
-    margin-bottom:10px
+    border-radius: 0;
+    margin-bottom: 10px
 }
+
 .btn-blog:hover,
 .btn-blog:focus,
 .btn-blog:active,
 .btn-blog.active,
 .open .dropdown-toggle.btn-blog {
     color: white;
-    background-color:#34ca78;
+    background-color: #34ca78;
     border-color: #34ca78;
 }
-h2{color:#34ca78;}
-.margin10{margin-bottom:10px; margin-right:10px;}
 
+h2 {
+    color: #34ca78;
+}
+
+.margin10 {
+    margin-bottom: 10px;
+    margin-right: 10px;
+}
 
 /* Social Mecia*/
 
@@ -113,6 +132,7 @@ h2{color:#34ca78;}
     -moz-transform: scale(1.1);
     -o-transform: scale(1.1);
 }
+
 .social {
     -webkit-transform: scale(0.8);
     /* Browser Variations: */
@@ -131,12 +151,15 @@ h2{color:#34ca78;}
 #social-fb:hover {
     color: #3B5998;
 }
+
 #social-tw:hover {
     color: #4099FF;
 }
+
 #social-gp:hover {
     color: #d34836;
 }
+
 #social-em:hover {
     color: #f39c12;
 }
@@ -178,7 +201,8 @@ h2{color:#34ca78;}
     color: #34ca78;
 }
 
-.datetime {}
+.datetime {
+}
 
 /* Footer */
 
@@ -187,7 +211,6 @@ footer {
     background-color: #0c1a1e;
     width: 100% !important;
 }
-
 
 /* movil stuff */
 
@@ -204,8 +227,24 @@ footer {
 
     }
 
+    .jumbotron p {
+
+        background: linear-gradient(#f5f2ff, #03ff00);
+        -webkit-background-clip: text;
+        color: transparent;
+        color: transparent;
+        position: relative;
+        margin-left: 100px;
+
     }
 
-
+    .jumbotron h1 {
+        background: linear-gradient(#fff8fd, rgba(3, 255, 0, 0.6));
+        -webkit-background-clip: text;
+        color: transparent;
+        color: transparent;
+        position: relative;
+        margin-right: 100px;
     }
 
+}
