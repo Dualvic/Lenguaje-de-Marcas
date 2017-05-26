@@ -187,3 +187,25 @@ footer {
     background-color: #0c1a1e;
     width: 100% !important;
 }
+
+
+/* movil stuff */
+
+@media (max-width: 960px) {
+    #adv {
+        background-image: url(../img/adv-mobile.png);
+        background-attachment: fixed;
+        background-repeat: no-repeat;
+        margin-top: 15%;
+        width: 98%;
+        margin-left: 1%;
+        margin-right: 1%;
+        height: 90px;
+
+    }
+
+    }
+
+
+    }
+
